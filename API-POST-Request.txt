@@ -1,0 +1,29 @@
+Base URI - https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick
+
+JSO BODY - 
+{
+    "location":{
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name":"PP house",
+    "phone nymber": "(+91)983 893 3937",
+    "address":"29, sidelayout, cohen 011",
+    "types":[
+        "shoe park",
+        "shop"
+    ],
+    "website":"http://google.com",
+    "language": "French-IN"
+    
+    }
+
+Resposne - 
+{
+    "status": "OK",
+    "place_id": "e6d922ab416067a21667b1657c83ad96",
+    "scope": "APP",
+    "reference": "1d600add4b315c4021909ae7e385c2441d600add4b315c4021909ae7e385c244",
+    "id": "1d600add4b315c4021909ae7e385c244"
+}
